@@ -16,8 +16,3 @@ class MainWindow(QMainWindow):
         self.main_layout.addwidget(self.label)
         self.main_layout.setLayout(self.main_layout)
      
-                         
-app = QApplication([])
-window = MainWindow()
-window.show()
-app.exec()  
